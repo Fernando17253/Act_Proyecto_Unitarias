@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://tu-repo-url.git', branch: 'main'
+                git url: 'https://github.com/Fernando17253/Act_Proyecto_Unitarias.git', branch: 'main'
             }
         }
 
